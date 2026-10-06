@@ -1,0 +1,46 @@
+{
+  "name": "lifeos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A private, voice-first journal and knowledge base. Speak your day; an LLM files it into a linked markdown vault.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "spaces": "node scripts/spaces.mjs",
+    "vault": "node scripts/vault.mjs",
+    "learn": "node scripts/learn.mjs",
+    "seed": "node scripts/seed.mjs",
+    "seed:sql": "node scripts/build-seed-sql.mjs",
+    "secret": "node -e \"console.log(require('crypto').randomBytes(48).toString('base64url'))\"",
+    "deploy": "bash scripts/deploy-vercel.sh"
+  },
+  "dependencies": {
+    "@google/genai": "^2.10.0",
+    "@supabase/supabase-js": "^2.110.1",
+    "js-yaml": "^5.2.1",
+    "next": "16.2.10",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.10",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

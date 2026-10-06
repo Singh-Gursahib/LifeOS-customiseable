@@ -1,0 +1,16 @@
+[
+  {
+    "entry_date": "2026-10-05",
+    "source": "voice",
+    "status": "draft",
+    "duration_sec": 41,
+    "raw_text": "Okay, quick one. Studied with Maya in the library for like three hours for the algorithms midterm, mostly dynamic programming, and I think I finally get the knapsack problem. Grabbed bubble tea after, eight dollars. Mom called on the walk home — she wants me to come home for the long weekend, so I need to book the bus ticket soon."
+  },
+  {
+    "entry_date": "2026-10-06",
+    "source": "text",
+    "status": "draft",
+    "duration_sec": null,
+    "raw_text": "Slept seven hours, felt good. 5k run before class. Leo and I worked on the databases project for two hours — the schema is done, he's starting on the API. Paid my phone bill, $45."
+  }
+]
